@@ -1,0 +1,7 @@
+{% extends 'time/show_time_generic.html' %}
+
+{% block title %}Current Time Page{% endblock %}
+
+{% block content %}
+    <p>It's now {{ now|date:"H:i, F j, Y" }}.</p>
+{% endblock %}
